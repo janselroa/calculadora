@@ -5,6 +5,7 @@ root.geometry('200x200')
 root.title('Calculadora')
 root.config(bg='black')
 root.iconbitmap('img/icono.ico')
+root.resizable(0, 0)
 miframe=Frame(root, bg='black')
 miframe.pack()
 
